@@ -5,7 +5,105 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chief's Footwear</title>
   <style>
-    /* ... existing styles ... */
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, footer {
+      background-color: #111;
+      text-align: center;
+      padding: 1em;
+    }
+
+    nav {
+      background-color: #222;
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      padding: 1em;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      background-color: #444;
+      border-radius: 5px;
+    }
+
+    nav a:hover {
+      background-color: #666;
+    }
+
+    .container {
+      padding: 2em;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .home-buttons a {
+      display: inline-block;
+      margin: 0.5em;
+      padding: 0.5em 1em;
+      background-color: #444;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+    }
+
+    .product {
+      background-color: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 10px;
+      padding: 1em;
+      text-align: center;
+    }
+
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    form {
+      background-color: #111;
+      padding: 1em;
+      margin-top: 2em;
+      border-radius: 10px;
+    }
+
+    form input, form select {
+      width: 100%;
+      padding: 0.5em;
+      margin: 0.5em 0;
+      border: none;
+      border-radius: 5px;
+    }
+
+    form button {
+      padding: 0.5em 1em;
+      background-color: #444;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #666;
+    }
   </style>
 </head>
 <body>
@@ -132,3 +230,4 @@
   </script>
 </body>
 </html>
+
