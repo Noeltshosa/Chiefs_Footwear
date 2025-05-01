@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,19 +10,21 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     body {
-      background-color: #f4f4f4;
+      background: url('graffiti_background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
     }
     header {
-      background-color: #222;
+      background-color: rgba(0,0,0,0.6);
       color: white;
       padding: 20px;
       text-align: center;
     }
     nav {
-      background-color: #444;
+      background-color: rgba(0,0,0,0.8);
       display: flex;
       justify-content: center;
     }
@@ -29,59 +32,84 @@
       color: white;
       padding: 14px 20px;
       text-decoration: none;
-      display: inline-block;
     }
     nav a:hover {
-      background-color: #111;
+      background-color: rgba(255,255,255,0.2);
     }
     .container {
       padding: 20px;
     }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
     .product {
-      background-color: white;
+      background-color: rgba(255,255,255,0.1);
       padding: 15px;
-      margin: 10px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      transition: transform 0.3s ease;
     }
-    .product h3 {
-      margin-bottom: 10px;
+    .product:hover {
+      transform: translateY(-5px);
     }
-    .product p {
+    .product img {
+      width: 100%;
+      border-radius: 10px;
       margin-bottom: 10px;
     }
     form {
-      background-color: white;
+      background-color: rgba(255,255,255,0.1);
       padding: 20px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      margin-top: 30px;
     }
-    form input, form select, form textarea {
+    form input, form select {
       width: 100%;
-      padding: 10px;
+      padding: 12px;
       margin: 10px 0;
       border-radius: 5px;
-      border: 1px solid #ccc;
+      border: none;
     }
     form button {
-      padding: 10px 15px;
-      background-color: #222;
+      padding: 12px 20px;
+      background-color: black;
       color: white;
       border: none;
       border-radius: 5px;
       cursor: pointer;
     }
     form button:hover {
-      background-color: #555;
+      background-color: white;
+      color: black;
     }
     footer {
-      background-color: #222;
+      background-color: rgba(0,0,0,0.6);
       color: white;
       text-align: center;
       padding: 20px;
-      margin-top: 30px;
+      margin-top: 40px;
     }
     .hidden { display: none; }
+    .home-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 40px;
+    }
+    .home-buttons a {
+      background-color: rgba(0,0,0,0.7);
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    .home-buttons a:hover {
+      background-color: rgba(255,255,255,0.2);
+    }
   </style>
 </head>
 <body>
@@ -90,73 +118,29 @@
   </header>
 
   <nav>
+    <a href="#home" onclick="showPage('home')">HOME</a>
     <a href="#shop" onclick="showPage('shop')">SHOP</a>
     <a href="#about" onclick="showPage('about')">ABOUT US</a>
     <a href="#contact" onclick="showPage('contact')">CONTACT US</a>
   </nav>
 
   <div class="container">
+    <div id="home" class="page">
+      <h2>Welcome to Chief's Footwear</h2>
+      <p>Step into the culture. Exclusive sneakers, all in one place.</p>
+      <div class="home-buttons">
+        <a href="#" onclick="showPage('shop')">Shop Now</a>
+        <a href="#" onclick="showPage('about')">Learn More</a>
+        <a href="#" onclick="showPage('contact')">Get in Touch</a>
+      </div>
+    </div>
 
-    <div id="shop" class="page">
+    <div id="shop" class="page hidden">
       <h2>Shop Sneakers</h2>
-      <div class="product">
-        <h3>White Nike Airforce 1</h3>
-        <p>Price: 700 BWP</p>
+      <div class="grid">
+        <!-- Sneaker product cards go here (same as before) -->
       </div>
-      <div class="product">
-        <h3>Nike Jordan 1 University Blue</h3>
-        <p>Price: 1200 BWP</p>
-      </div>
-      <div class="product">
-        <h3>Cactus Jack Jordan 6 British Khaki</h3>
-        <p>Price: 2500 BWP</p>
-      </div>
-      <div class="product">
-        <h3>Barca x Patta Nike TN</h3>
-        <p>Price: 1400 BWP</p>
-      </div>
-      <div class="product">
-        <h3>Lacoste Nike TN</h3>
-        <p>Price: 1400 BWP</p>
-      </div>
-      <div class="product">
-        <h3>Corteiz Airmax 95 Honey Black</h3>
-        <p>Price: 1600 BWP</p>
-      </div>
-      <div class="product">
-        <h3>Cactus Jack Jordan 1 High Dark Mocha</h3>
-        <p>Price: 2000 BWP</p>
-      </div>
-      <div class="product">
-        <h3>Black Puma Suede</h3>
-        <p>Price: 900 BWP</p>
-      </div>
-      <div class="product">
-        <h3>Addidas Campus</h3>
-        <p>Price: 1000 BWP</p>
-      </div>
-
-      <h3>Pre-Order Now</h3>
-      <form>
-        <input type="text" placeholder="First Name" required>
-        <input type="text" placeholder="Last Name" required>
-        <input type="email" placeholder="Email" required>
-        <input type="text" placeholder="Contact (+267...)" required>
-        <input type="text" placeholder="Address" required>
-        <select required>
-          <option value="">Select Sneaker</option>
-          <option>White Nike Airforce 1 - 700 BWP</option>
-          <option>Nike Jordan 1 University Blue - 1200 BWP</option>
-          <option>Cactus Jack Jordan 6 British Khaki - 2500 BWP</option>
-          <option>Barca x Patta Nike TN - 1400 BWP</option>
-          <option>Lacoste Nike TN - 1400 BWP</option>
-          <option>Corteiz Airmax 95 Honey Black - 1600 BWP</option>
-          <option>Cactus Jack Jordan 1 High Dark Mocha - 2000 BWP</option>
-          <option>Black Puma Suede - 900 BWP</option>
-          <option>Addidas Campus - 1000 BWP</option>
-        </select>
-        <button type="submit">Checkout</button>
-      </form>
+      <!-- Pre-order form goes here (same as before) -->
     </div>
 
     <div id="about" class="page hidden">
@@ -169,7 +153,6 @@
       <p>Phone: +267 77545281</p>
       <p>Email: <a href="mailto:nntshosa@gmail.com">nntshosa@gmail.com</a></p>
     </div>
-
   </div>
 
   <footer>
@@ -183,6 +166,9 @@
       });
       document.getElementById(pageId).classList.remove('hidden');
     }
+
+    // Show home by default
+    window.onload = () => showPage('home');
   </script>
 </body>
 </html>
