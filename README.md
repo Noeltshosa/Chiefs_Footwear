@@ -158,7 +158,7 @@
           <p>Price: 1400 BWP</p>
         </div>
         <div class="product">
-          <img src="corteiz_airmax.jpg" alt="Corteiz Airmax 95 Honey Black">
+          <img src="Corteiz honey black img.png" alt="Corteiz Airmax 95 Honey Black">
           <h3>Corteiz Airmax 95 Honey Black</h3>
           <p>Price: 1600 BWP</p>
         </div>
@@ -181,10 +181,11 @@
       <form>
         <h3>Pre-Order Now</h3>
         <input type="text" placeholder="First Name" required>
-        <input type="text" placeholder="Last Name" required>
+        <input type="text" placeholder="Surname" required>
         <input type="email" placeholder="Email" required>
         <input type="text" placeholder="Contact (+267)" required>
-        <input type="text" placeholder="Address" required>
+        <input type="text" placeholder="Postal Address" required>
+        <input type="text" placeholder="Shoe size" required>
         <select required>
           <option value="">Select a Sneaker</option>
           <option>White Nike Airforce 1 - 700 BWP</option>
