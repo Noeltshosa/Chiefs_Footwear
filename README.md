@@ -6,14 +6,15 @@
   <title>Chief's Footwear</title>
   <style>
     body {
-      background-image: Graffiti Art_ Chief's Footwear.png;
-      background-size: cover;
-      background-repeat:no-repeat;
-      background-attachment:fixed;
-      background position:center;
-      color:black;
-      min-height:100vh;
-      margin: 0;
+  background-image: url("Graffiti Art_ Chief's Footwear.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: black;
+  color: black;
+  min-height: 100vh;
+  margin: 0;
     }
 
     header, footer {
