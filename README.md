@@ -6,11 +6,14 @@
   <title>Chief's Footwear</title>
   <style>
     body {
-      background-color: #000;
-      color: #fff;
-      font-family: Arial, sans-serif;
+      background-image: Graffiti art_Chief's Footwear.png;
+      background-size: cover;
+      background-repeat:no-repeat;
+      background-attachment:fixed;
+      background position:center;
+      color:black;
+      min-height:100vh;
       margin: 0;
-      padding: 0;
     }
 
     header, footer {
