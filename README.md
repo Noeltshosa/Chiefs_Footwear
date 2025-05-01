@@ -6,7 +6,7 @@
   <title>Chief's Footwear</title>
   <style>
     body {
-      background-image: Graffiti art_Chief's Footwear.png;
+      background-image: Graffiti Art_ Chief's Footwear.png;
       background-size: cover;
       background-repeat:no-repeat;
       background-attachment:fixed;
