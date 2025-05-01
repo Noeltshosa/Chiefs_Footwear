@@ -143,7 +143,7 @@
           <p>Price: 1200 BWP</p>
         </div>
         <div class="product">
-          <img src="jordan6khaki.jpg" alt="Cactus Jack Jordan 6 British Khaki">
+          <img src="Jordan 6 cactus jack british khaki img.png" alt="Cactus Jack Jordan 6 British Khaki">
           <h3>Cactus Jack Jordan 6 British Khaki</h3>
           <p>Price: 2500 BWP</p>
         </div>
