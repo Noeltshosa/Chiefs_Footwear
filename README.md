@@ -133,12 +133,12 @@
       <h2>Shop Sneakers</h2>
       <div class="grid">
         <div class="product">
-          <img src="airforce1.jpg" alt="White Nike Airforce 1">
+          <img src="White airforce 1.jpeg" alt="White Nike Airforce 1">
           <h3>White Nike Airforce 1</h3>
           <p>Price: 700 BWP</p>
         </div>
         <div class="product">
-          <img src="jordan1blue.jpg" alt="Nike Jordan 1 University Blue">
+          <img src="Nike Jordan 1 university blue.jpeg" alt="Nike Jordan 1 University Blue">
           <h3>Nike Jordan 1 University Blue</h3>
           <p>Price: 1200 BWP</p>
         </div>
@@ -148,12 +148,12 @@
           <p>Price: 2500 BWP</p>
         </div>
         <div class="product">
-          <img src="barca_patta_tn.jpg" alt="Barca x Patta Nike TN">
+          <img src="barca x patta tn.jpeg" alt="Barca x Patta Nike TN">
           <h3>Barca x Patta Nike TN</h3>
           <p>Price: 1400 BWP</p>
         </div>
         <div class="product">
-          <img src="lacoste_tn.jpg" alt="Lacoste Nike TN">
+          <img src="lacoste tn img.jpeg" alt="Lacoste Nike TN">
           <h3>Lacoste Nike TN</h3>
           <p>Price: 1400 BWP</p>
         </div>
@@ -163,17 +163,17 @@
           <p>Price: 1600 BWP</p>
         </div>
         <div class="product">
-          <img src="jordan1mocha.jpg" alt="Cactus Jack Jordan 1 High Dark Mocha">
+          <img src="cactus jack Jordan 1 high dark mocha img.jpeg" alt="Cactus Jack Jordan 1 High Dark Mocha">
           <h3>Cactus Jack Jordan 1 High Dark Mocha</h3>
           <p>Price: 2000 BWP</p>
         </div>
         <div class="product">
-          <img src="puma_suede.jpg" alt="Black Puma Suede">
+          <img src="black puma suede.jpeg" alt="Black Puma Suede">
           <h3>Black Puma Suede</h3>
           <p>Price: 900 BWP</p>
         </div>
         <div class="product">
-          <img src="adidas_campus.jpg" alt="Adidas Campus">
+          <img src="adidas campus.jpeg" alt="Adidas Campus">
           <h3>Adidas Campus</h3>
           <p>Price: 1000 BWP</p>
         </div>
