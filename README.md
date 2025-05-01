@@ -214,7 +214,7 @@
   </div>
 
   <footer>
-    <p>&copy; 2025 Chief's Footwear. All rights reserved.</p>
+    <p>&copy; 2025 Chief's Footwear. All rights reserved.By Mr Noel N. Tshosa</p>
   </footer>
 
   <script>
