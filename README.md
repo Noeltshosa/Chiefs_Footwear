@@ -12,7 +12,7 @@
   background-attachment: fixed;
   background-position: center;
   background-color: black;
-  color: black;
+  color: white;
   min-height: 100vh;
   margin: 0;
     }
